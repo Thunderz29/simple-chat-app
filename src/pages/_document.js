@@ -3,8 +3,8 @@ import { useEffect } from "react";
 
 export default function Document() {
   useEffect(() => {
-    document.body.style.backgroundColor = "#000";  // Mengganti dengan warna latar belakang gelap
-    document.body.style.color = "#fff";            // Mengatur warna teks
+    document.body.style.backgroundColor = "#000";
+    document.body.style.color = "#fff";
   }, []);
 
   return (

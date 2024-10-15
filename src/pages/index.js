@@ -102,7 +102,6 @@ export default function Home() {
             }
           />
           <Divider />
-          {/* Bagian pesan dibuat scrollable */}
           <CardContent sx={{ flex: 1, overflowY: "auto" }}>
             {messages.map((msg, index) => (
               <ChatMessage
@@ -114,7 +113,6 @@ export default function Home() {
               />
             ))}
           </CardContent>
-          {/* Bagian input dan tombol tetap di bawah */}
           <Box display="flex" p={2} sx={{ borderTop: "1px solid #e0e0e0" }}>
             <TextField
               type="text"
